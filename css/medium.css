@@ -1,0 +1,56 @@
+@media(max-width:1200px){
+    /* .case-three .grid{
+        height: unset;
+        width:80%;
+    } */
+}
+@media(max-width:1000px){
+    .tab{
+        width: 8vw;
+    }
+    .tab-panel{
+        width: 92vw;
+    }
+    .case{
+        width: 100%;
+        margin-inline: 20px;
+    }
+    .case .image{
+        width: 40%;
+        height: 100%;
+        /* background-color: rgb(131, 94, 94); */
+    }
+    .case .intro{
+        width: 60%;
+        height: 100%;
+        padding: 6%;
+        /* background-color: rgb(131, 94, 94); */
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: ; */
+    }
+    /* The second tab */
+    .case-two .grid{
+        width: 100%;
+    }
+    .case-three{
+        width: 100%;
+        overflow: auto; 
+        /* justify-items: flex-start;
+        height: unset; */
+    }
+    .case-three .grid{
+        /* height: unset; */
+        width:100%;
+    }
+    .case-four{
+        width: 95%;
+        /* height: unset; */
+        
+        /* display: flex;
+        flex-direction:column; */
+       
+    }
+    
+}
