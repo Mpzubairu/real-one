@@ -1,0 +1,21 @@
+{
+  "name": "second",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss ./css/index.css --dir public "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "sal.js": "^0.8.5"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^14.1.0"
+  }
+}
