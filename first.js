@@ -63,18 +63,3 @@ function darkMode(){
 }
 
 // send email section
-var sendmail = function(e) {
-    var form = document.getElementById('contact-form');
-       emailjs.sendForm('Portfolio', 'template_vvpgasx', form)
-           .then(function() {
-               console.log('SUCCESS!');
-               alert('email send SUCCESS');
-           }, function(error) {
-               console.log('FAILED...', error);
-               alert('FAILED EMAIL');
-           });
-
-}
-submit.addEventListener('click', sendmail(e));
-
-
