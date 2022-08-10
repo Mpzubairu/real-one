@@ -1,7 +1,3 @@
-sal({
-    // threshold: 1,
-    once: false
-});
 
 var tabPanel = document.querySelectorAll(".tab-panel")
 var tabButton = document.querySelectorAll(".tab-button")
