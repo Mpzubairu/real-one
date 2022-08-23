@@ -187,7 +187,7 @@ span{
 .case-two .grid .cart{
     padding: 10px;
     background-color: rgba(0, 0, 0, .2);
-    min-height: 30px;
+    /*min-height: 30px;*/
 }
 .case-two .grid .cart h1{
     text-align: left;
