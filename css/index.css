@@ -89,6 +89,7 @@ span{
     position: fixed;
     display: none;
     background-color: var(--base-color);
+    overflow:hidden;
 }
 .tab-button{
     background-color:var(--tab-button);
